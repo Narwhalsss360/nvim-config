@@ -2,9 +2,9 @@ function colorschemeForTime()
     local hour = tonumber(os.date("%H"))
 
     if 10 <= hour and hour <= 17 then
-      return "evening"
+      return "catppuccin-latte"
     elseif 18 <= hour and hour <= 22 then
-      return "slate"
+      return "catppuccin-mocha"
     else
       return "murphy"
     end
