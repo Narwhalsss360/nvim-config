@@ -3,7 +3,7 @@
 -- Add any additional keymaps here
 
 -- Use mbbill's undotree since that's an actual tree
-vim.keymap.set({ 'n', 'i', }, "<leader>su", vim.cmd.UndotreeToggle, {
+vim.keymap.set({ 'n' }, "<leader>su", vim.cmd.UndotreeToggle, {
   desc = "Undotree (real tree)"
 })
 
