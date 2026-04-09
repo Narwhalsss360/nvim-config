@@ -8,7 +8,7 @@ return {
             pylsp = {
               plugins = {
                 pycodestyle = {
-                  ignore = { "W391" },
+                  ignore = { "W391", "W503", "W504" },
                   maxLineLength = 180,
                 },
               },
@@ -16,10 +16,18 @@ return {
           },
         },
         ltex = {
+          enabled = false,
           settings = {
             ltex = {
-              checkFrequency = "save",
-            },
+              checkFrequency = "save"
+            }
+          },
+        },
+        ltex_plus = {
+          settings = {
+            ltex = {
+              checkFrequency = "save"
+            }
           },
         },
       },
